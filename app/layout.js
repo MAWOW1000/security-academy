@@ -45,6 +45,9 @@ export default function RootLayout({ children }) {
               chính bạn hoặc khi được cho phép bằng văn bản. Tấn công hệ thống không được phép là phạm pháp.
             </div>
             Security Academy · Chia sẻ kiến thức bảo mật cho cộng đồng · Học miễn phí, chia sẻ tự do.
+            <div style={{ marginTop: 10 }}>
+              <a href="/privacy/">Chính sách bảo mật</a> · <a href="/terms/">Điều khoản sử dụng</a>
+            </div>
           </div>
         </footer>
       </body>
