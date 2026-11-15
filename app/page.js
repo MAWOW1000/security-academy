@@ -11,7 +11,7 @@ export default function Home() {
           <br />từ nền tảng đến thực chiến
         </h1>
         <p>
-          Lộ trình {COURSES.length} khóa, từ phần cứng và mạng đến kiểm thử xâm nhập và bảo mật thiết bị IoT.
+          Lộ trình {COURSES.length} khóa, từ phần cứng và mạng đến kiểm thử xâm nhập, bảo mật thiết bị IoT và blockchain.
           Mọi bài giảng bằng tiếng Việt, học hoàn toàn miễn phí.
         </p>
         <div className="stats">
