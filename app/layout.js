@@ -3,6 +3,13 @@ import './globals.css';
 export const metadata = {
   title: 'Security Academy — Học An Ninh Mạng',
   description: 'Khóa học an ninh mạng tiếng Việt miễn phí: phần cứng, mạng, hệ điều hành, lập trình, kiểm thử xâm nhập và IoT.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '1024x1024' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export const viewport = {
@@ -36,8 +43,7 @@ export default function RootLayout({ children }) {
                 style={{ paddingTop: 'env(safe-area-inset-top,0px)' }}>
           <div className="wrap flex h-14 items-center justify-between sm:h-16">
             <a href="/" className="flex items-center gap-2.5 font-display text-base font-bold sm:text-lg">
-              <span className="grid h-8 w-8 place-items-center rounded-lg font-extrabold text-bg0"
-                    style={{ background: 'linear-gradient(135deg,#38bdf8,#818cf8)' }}>S</span>
+              <img src="/icon.png" alt="Security Academy logo" width="32" height="32" className="h-8 w-8 rounded-lg" />
               <span className="whitespace-nowrap">Security Academy</span>
             </a>
             <nav className="flex items-center gap-1 text-sm font-semibold text-dim">
